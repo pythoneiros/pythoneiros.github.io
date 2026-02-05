@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#212529">
 	<meta name="description" content="Pythoneiros: Comunidade brasileira de Python focada em prática. Aprenda Data Science, Web Development (Django/Flask) e Automação com exercícios e projetos open source.">
 	<meta name="keywords" content="Python, Comunidade Python, Aprender Programação, Data Science, Django, Flask, Pythoneiros, Exercícios Python">
 	<meta name="author" content="Pythoneiros Community">
@@ -25,6 +26,7 @@
 
 	<link rel="canonical" href="https://pythoneiros.github.io/">
 
+	<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
@@ -55,7 +57,7 @@
 			<a class="navbar-brand fw-bold" href="#">
 				Pythoneiros
 			</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
@@ -79,13 +81,13 @@
 					</p>
 					
 					<div class="d-flex flex-wrap justify-content-center gap-3">
-						<a href="https://www.reddit.com/r/Pythoneiros/" target="_blank" class="btn btn-reddit btn-lg px-4 gap-2">
+						<a href="https://www.reddit.com/r/Pythoneiros/" target="_blank" rel="noopener noreferrer" class="btn btn-reddit btn-lg px-4 gap-2">
 							<i class="bi bi-reddit" aria-hidden="true"></i> Discussão no Reddit
 						</a>
-						<a href="https://github.com/pythoneiros/" target="_blank" class="btn btn-outline-light btn-lg px-4 gap-2">
+						<a href="https://github.com/pythoneiros/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-lg px-4 gap-2">
 							<i class="bi bi-github" aria-hidden="true"></i> Projetos no GitHub
 						</a>
-						<a href="https://www.facebook.com/groups/pythoneiros" target="_blank" class="btn btn-outline-primary btn-lg px-4 gap-2">
+						<a href="https://www.facebook.com/groups/pythoneiros" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-lg px-4 gap-2">
 							<i class="bi bi-facebook" aria-hidden="true"></i> Grupo Facebook
 						</a>
 					</div>
@@ -143,7 +145,7 @@
 								<div class="icon-box"><i class="bi bi-code-slash" aria-hidden="true"></i></div>
 								<h5 class="card-title fw-bold">Exercícios Práticos</h5>
 								<p class="card-text text-secondary small">Lista de exercícios práticos, do básico ao avançado, para treinar sua lógica.</p>
-								<a href="https://github.com/pythoneiros/Exercicios" class="btn btn-sm btn-outline-warning w-100 mt-3">Acessar Repositório</a>
+								<a href="https://github.com/pythoneiros/Exercicios" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-warning w-100 mt-3">Acessar Repositório</a>
 							</div>
 						</div>
 					</div>
@@ -154,7 +156,7 @@
 								<div class="icon-box"><i class="bi bi-collection" aria-hidden="true"></i></div>
 								<h5 class="card-title fw-bold">Links & Curadoria</h5>
 								<p class="card-text text-secondary small">Nossa base de conhecimento. PDFs, roadmaps, canais recomendados e documentação.</p>
-								<a href="https://github.com/pythoneiros/Links" class="btn btn-sm btn-outline-info w-100 mt-3">Acessar Materiais</a>
+								<a href="https://github.com/pythoneiros/Links" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-info w-100 mt-3">Acessar Materiais</a>
 							</div>
 						</div>
 					</div>
@@ -166,8 +168,9 @@
 								<h5 class="card-title fw-bold">Ferramentas Oficiais</h5>
 								<p class="card-text text-secondary small">Downloads essenciais para configurar seu ambiente de desenvolvimento.</p>
 								<div class="d-grid gap-2 mt-3">
-									<a href="https://www.python.org/downloads/" target="_blank" class="btn btn-sm btn-outline-light">Baixar Python</a>
-									<a href="https://code.visualstudio.com/" target="_blank" class="btn btn-sm btn-outline-light">Baixar VS Code</a>
+									<a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Baixar Python</a>
+									<a href="https://www.jetbrains.com/pycharm/download/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Baixar PyCharm</a>
+									<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-light">Baixar VS Code</a>
 								</div>
 							</div>
 						</div>
@@ -180,7 +183,7 @@
 			<div class="container">
 				<h3 class="fw-bold mb-3">Pronto para codar?</h3>
 				<p class="text-secondary mb-4">A melhor hora para começar foi ontem. A segunda melhor é agora.</p>
-				<a href="https://www.reddit.com/r/Pythoneiros/" class="btn btn-primary btn-lg rounded-pill px-5">
+				<a href="https://www.reddit.com/r/Pythoneiros/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg rounded-pill px-5">
 					Entrar na Comunidade
 				</a>
 			</div>
@@ -194,8 +197,8 @@
 				&copy; 2026 <strong>Pythoneiros</strong>. Open Source & Community Driven.
 			</p>
 			<div class="mt-2">
-				<a href="https://github.com/pythoneiros" class="text-secondary text-decoration-none me-3"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
-				<a href="https://www.reddit.com/r/Pythoneiros/" class="text-secondary text-decoration-none"><i class="bi bi-reddit" aria-hidden="true"></i> Reddit</a>
+				<a href="https://github.com/pythoneiros" target="_blank" rel="noopener noreferrer" class="text-secondary text-decoration-none me-3"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
+				<a href="https://www.reddit.com/r/Pythoneiros/" target="_blank" rel="noopener noreferrer" class="text-secondary text-decoration-none"><i class="bi bi-reddit" aria-hidden="true"></i> Reddit</a>
 			</div>
 		</div>
 	</footer>
